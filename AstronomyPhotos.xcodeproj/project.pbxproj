@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5760DF31239EB6FA0094CBF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF30239EB6FA0094CBF6 /* AppDelegate.swift */; };
+		5760DF33239EB6FA0094CBF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF32239EB6FA0094CBF6 /* SceneDelegate.swift */; };
+		5760DF35239EB6FA0094CBF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF34239EB6FA0094CBF6 /* ViewController.swift */; };
+		5760DF38239EB6FA0094CBF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5760DF36239EB6FA0094CBF6 /* Main.storyboard */; };
+		5760DF3A239EB7030094CBF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5760DF39239EB7030094CBF6 /* Assets.xcassets */; };
+		5760DF3D239EB7030094CBF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5760DF3B239EB7030094CBF6 /* LaunchScreen.storyboard */; };
+		5760DF48239EB7030094CBF6 /* AstronomyPhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF47239EB7030094CBF6 /* AstronomyPhotosTests.swift */; };
+		5760DF53239EB7470094CBF6 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF52239EB7470094CBF6 /* NetworkHelper.swift */; };
+		5760DF55239EB7570094CBF6 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF54239EB7570094CBF6 /* AppError.swift */; };
+		5760DF57239EB9130094CBF6 /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF56239EB9130094CBF6 /* PlanetCell.swift */; };
+		5760DF59239EBA0E0094CBF6 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760DF58239EBA0E0094CBF6 /* UIImageView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5760DF44239EB7030094CBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5760DF25239EB6FA0094CBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5760DF2C239EB6FA0094CBF6;
+			remoteInfo = AstronomyPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5760DF2D239EB6FA0094CBF6 /* AstronomyPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronomyPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5760DF30239EB6FA0094CBF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5760DF32239EB6FA0094CBF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5760DF34239EB6FA0094CBF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5760DF37239EB6FA0094CBF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5760DF39239EB7030094CBF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5760DF3C239EB7030094CBF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5760DF3E239EB7030094CBF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5760DF43239EB7030094CBF6 /* AstronomyPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5760DF47239EB7030094CBF6 /* AstronomyPhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPhotosTests.swift; sourceTree = "<group>"; };
+		5760DF49239EB7030094CBF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5760DF52239EB7470094CBF6 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		5760DF54239EB7570094CBF6 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		5760DF56239EB9130094CBF6 /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
+		5760DF58239EBA0E0094CBF6 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5760DF2A239EB6FA0094CBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5760DF40239EB7030094CBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5760DF24239EB6FA0094CBF6 = {
+			isa = PBXGroup;
+			children = (
+				5760DF2F239EB6FA0094CBF6 /* AstronomyPhotos */,
+				5760DF46239EB7030094CBF6 /* AstronomyPhotosTests */,
+				5760DF2E239EB6FA0094CBF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5760DF2E239EB6FA0094CBF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5760DF2D239EB6FA0094CBF6 /* AstronomyPhotos.app */,
+				5760DF43239EB7030094CBF6 /* AstronomyPhotosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5760DF2F239EB6FA0094CBF6 /* AstronomyPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				576A57D6239F1EBC0081C9B7 /* Network Services */,
+				576A57D7239F1ECA0081C9B7 /* Views */,
+				576A57D8239F1ED30081C9B7 /* Controllers */,
+				576A57D9239F1F000081C9B7 /* Extensions */,
+				576A57D5239F1E8F0081C9B7 /* Supporting Files */,
+				5760DF3E239EB7030094CBF6 /* Info.plist */,
+			);
+			path = AstronomyPhotos;
+			sourceTree = "<group>";
+		};
+		5760DF46239EB7030094CBF6 /* AstronomyPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5760DF47239EB7030094CBF6 /* AstronomyPhotosTests.swift */,
+				5760DF49239EB7030094CBF6 /* Info.plist */,
+			);
+			path = AstronomyPhotosTests;
+			sourceTree = "<group>";
+		};
+		576A57D5239F1E8F0081C9B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5760DF30239EB6FA0094CBF6 /* AppDelegate.swift */,
+				5760DF32239EB6FA0094CBF6 /* SceneDelegate.swift */,
+				5760DF36239EB6FA0094CBF6 /* Main.storyboard */,
+				5760DF39239EB7030094CBF6 /* Assets.xcassets */,
+				5760DF3B239EB7030094CBF6 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		576A57D6239F1EBC0081C9B7 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				5760DF54239EB7570094CBF6 /* AppError.swift */,
+				5760DF52239EB7470094CBF6 /* NetworkHelper.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		576A57D7239F1ECA0081C9B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5760DF56239EB9130094CBF6 /* PlanetCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		576A57D8239F1ED30081C9B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5760DF34239EB6FA0094CBF6 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		576A57D9239F1F000081C9B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5760DF58239EBA0E0094CBF6 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5760DF2C239EB6FA0094CBF6 /* AstronomyPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5760DF4C239EB7030094CBF6 /* Build configuration list for PBXNativeTarget "AstronomyPhotos" */;
+			buildPhases = (
+				5760DF29239EB6FA0094CBF6 /* Sources */,
+				5760DF2A239EB6FA0094CBF6 /* Frameworks */,
+				5760DF2B239EB6FA0094CBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstronomyPhotos;
+			productName = AstronomyPhotos;
+			productReference = 5760DF2D239EB6FA0094CBF6 /* AstronomyPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5760DF42239EB7030094CBF6 /* AstronomyPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5760DF4F239EB7030094CBF6 /* Build configuration list for PBXNativeTarget "AstronomyPhotosTests" */;
+			buildPhases = (
+				5760DF3F239EB7030094CBF6 /* Sources */,
+				5760DF40239EB7030094CBF6 /* Frameworks */,
+				5760DF41239EB7030094CBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5760DF45239EB7030094CBF6 /* PBXTargetDependency */,
+			);
+			name = AstronomyPhotosTests;
+			productName = AstronomyPhotosTests;
+			productReference = 5760DF43239EB7030094CBF6 /* AstronomyPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5760DF25239EB6FA0094CBF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alex Paul";
+				TargetAttributes = {
+					5760DF2C239EB6FA0094CBF6 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					5760DF42239EB7030094CBF6 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 5760DF2C239EB6FA0094CBF6;
+					};
+				};
+			};
+			buildConfigurationList = 5760DF28239EB6FA0094CBF6 /* Build configuration list for PBXProject "AstronomyPhotos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5760DF24239EB6FA0094CBF6;
+			productRefGroup = 5760DF2E239EB6FA0094CBF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5760DF2C239EB6FA0094CBF6 /* AstronomyPhotos */,
+				5760DF42239EB7030094CBF6 /* AstronomyPhotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5760DF2B239EB6FA0094CBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760DF3D239EB7030094CBF6 /* LaunchScreen.storyboard in Resources */,
+				5760DF3A239EB7030094CBF6 /* Assets.xcassets in Resources */,
+				5760DF38239EB6FA0094CBF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5760DF41239EB7030094CBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5760DF29239EB6FA0094CBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760DF53239EB7470094CBF6 /* NetworkHelper.swift in Sources */,
+				5760DF59239EBA0E0094CBF6 /* UIImageView+Extensions.swift in Sources */,
+				5760DF35239EB6FA0094CBF6 /* ViewController.swift in Sources */,
+				5760DF55239EB7570094CBF6 /* AppError.swift in Sources */,
+				5760DF57239EB9130094CBF6 /* PlanetCell.swift in Sources */,
+				5760DF31239EB6FA0094CBF6 /* AppDelegate.swift in Sources */,
+				5760DF33239EB6FA0094CBF6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5760DF3F239EB7030094CBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760DF48239EB7030094CBF6 /* AstronomyPhotosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5760DF45239EB7030094CBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5760DF2C239EB6FA0094CBF6 /* AstronomyPhotos */;
+			targetProxy = 5760DF44239EB7030094CBF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5760DF36239EB6FA0094CBF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5760DF37239EB6FA0094CBF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5760DF3B239EB7030094CBF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5760DF3C239EB7030094CBF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5760DF4A239EB7030094CBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5760DF4B239EB7030094CBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5760DF4D239EB7030094CBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEKMNK5YD3;
+				INFOPLIST_FILE = AstronomyPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcpaul.AstronomyPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5760DF4E239EB7030094CBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEKMNK5YD3;
+				INFOPLIST_FILE = AstronomyPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcpaul.AstronomyPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5760DF50239EB7030094CBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEKMNK5YD3;
+				INFOPLIST_FILE = AstronomyPhotosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcpaul.AstronomyPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyPhotos.app/AstronomyPhotos";
+			};
+			name = Debug;
+		};
+		5760DF51239EB7030094CBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZEKMNK5YD3;
+				INFOPLIST_FILE = AstronomyPhotosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcpaul.AstronomyPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyPhotos.app/AstronomyPhotos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5760DF28239EB6FA0094CBF6 /* Build configuration list for PBXProject "AstronomyPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5760DF4A239EB7030094CBF6 /* Debug */,
+				5760DF4B239EB7030094CBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5760DF4C239EB7030094CBF6 /* Build configuration list for PBXNativeTarget "AstronomyPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5760DF4D239EB7030094CBF6 /* Debug */,
+				5760DF4E239EB7030094CBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5760DF4F239EB7030094CBF6 /* Build configuration list for PBXNativeTarget "AstronomyPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5760DF50239EB7030094CBF6 /* Debug */,
+				5760DF51239EB7030094CBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5760DF25239EB6FA0094CBF6 /* Project object */;
+}
