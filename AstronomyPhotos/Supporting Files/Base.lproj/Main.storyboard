@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Astronomy Photo of the Day-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AstronomyPhotos" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,7 +53,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="L4y-9e-un4"/>
+                    <navigationItem key="navigationItem" title="Astronomy Photo of the Day" id="L4y-9e-un4"/>
                     <connections>
                         <outlet property="tableView" destination="VDa-n8-TK4" id="M8G-G1-Dk2"/>
                     </connections>
